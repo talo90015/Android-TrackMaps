@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/source_location"
+        android:hint="@string/source_location"
+        android:textSize="16sp"
+        android:textColor="#501F1F"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="12sp"
+        android:background="@drawable/edit_bg"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/destination_location"
+        android:hint="@string/destination_location"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#501F1F"
+        android:textAlignment="center"
+        android:padding="12sp"
+        android:background="@drawable/edit_bg"
+        android:layout_marginTop="20sp"/>
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="80sp"
+        android:id="@+id/search"
+        android:text="搜尋路線"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#070D2C"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="30sp"/>
+
+
+</LinearLayout>
